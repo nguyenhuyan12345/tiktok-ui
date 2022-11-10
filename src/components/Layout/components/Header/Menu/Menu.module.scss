@@ -1,0 +1,54 @@
+.menu-list {
+  padding: 8px 0;
+
+  .menu-item {
+    padding: 10px 8px 10px 16px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: var(--white);
+
+    &:hover {
+      background: rgba(22, 24, 35, 0.03);
+    }
+  }
+
+  .memu-item-icon {
+    display: flex;
+    white-space: nowrap;
+    flex-direction: row;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .menu-title {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 22px;
+    margin: 0px;
+    min-width: 150px;
+    list-style: none;
+    margin: 0 0 0 8px;
+    text-align: start;
+  }
+}
+
+.menu {
+  font-size: 2rem;
+  width: 28px;
+  margin-left: 16px;
+  background-color: transparent;
+  position: relative;
+  background-color: var(--white);
+
+  .menu-icon {
+  }
+}
+
+.menu-box {
+  padding: 8px 0;
+  width: auto;
+  z-index: 2;
+  cursor: pointer;
+}

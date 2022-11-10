@@ -1,0 +1,52 @@
+.wrapper-account {
+  padding: 9px 16px;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+
+  &:hover {
+    background: rgba(22, 24, 35, 0.03);
+  }
+
+  .avata {
+    height: 40px;
+    width: 40px;
+    border-radius: 50vh;
+    margin-right: 12px;
+    object-fit: cover;
+  }
+  .info {
+    flex: 0 1 auto;
+    min-width: 0px;
+    .name {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 600;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+
+      .icon-check {
+        font-size: 1rem;
+        border-radius: 50vh;
+        background-color: rgb(32, 213, 236);
+        color: var(--white);
+        padding: 2px;
+        margin-left: 4px;
+      }
+    }
+
+    .username {
+      font-size: 14px;
+      line-height: 20px;
+      color: rgba(22, 24, 35, 0.5);
+      font-weight: 400;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

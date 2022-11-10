@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: var(--default-layout-width);
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  text-align: center;
+  margin-top: var(--default-layout-header-height);
+}
+
+.content {
+  background-color: aqua;
+  flex-grow: 1;
+  min-height: 1000px;
+}
